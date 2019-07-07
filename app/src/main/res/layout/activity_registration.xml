@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:orientation="vertical"
+    android:background="#242424">
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TV_Username"
+            android:text="Username"
+            android:textSize="17dp"
+            android:textColor="#fc7a00"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/ET_Username"
+            android:textColor="#fc7a00"
+            android:layout_marginTop="15dp"
+            android:maxLines="1"
+            android:lines="1"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TV_Password"
+            android:text="Password"
+            android:textSize="17dp"
+            android:textColor="#fc7a00"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/ET_Password"
+            android:layout_marginTop="15dp"
+            android:textColor="#fc7a00"
+            android:layout_width="match_parent"
+            android:maxLines="1"
+            android:lines="1"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/BTN_Register"
+        android:text="Register"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

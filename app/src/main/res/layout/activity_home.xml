@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/DL_DrawerHome"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:background="#242424">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/IV_Menu"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/ic_menu_black_24dp"
+                    android:tint="#fff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="30dp"
+                    android:text="Explore"
+                    android:textColor="#dbd81f"
+                    android:textSize="25sp" />
+            </LinearLayout>
+            <android.support.v7.widget.CardView
+                android:id="@+id/CV_Europa"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp"
+                android:layout_height="250dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/europa" />
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/CV_Asia"
+                android:layout_width="match_parent"
+                app:cardCornerRadius="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_height="250dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/asia"/>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/CV_Africa"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="250dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/africa"/>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/CV_America"
+                android:layout_width="match_parent"
+                app:cardCornerRadius="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_height="250dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/america"/>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/CV_Australia"
+                android:layout_width="match_parent"
+                app:cardCornerRadius="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_height="250dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/australia"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/NV_Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+
+        android:fitsSystemWindows="true"
+        app:menu="@menu/menur_rf">
+
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

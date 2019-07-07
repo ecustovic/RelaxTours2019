@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242424"
+
+    tools:context=".AranzmanDetails">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/IV_Slika"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/europa"
+            android:layout_alignParentTop="true"
+            />
+
+        <TextView
+            android:id="@+id/TV_Naziv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#dbd81f"
+
+            android:text="Naziv"
+            android:layout_below="@+id/IV_Slika"
+            android:layout_marginTop="20dp"
+
+            />
+        <TextView
+            android:id="@+id/TV_Termin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Termin"
+            android:textColor="#dbd81f"
+
+            android:layout_below="@+id/TV_Naziv"
+            android:layout_marginTop="20dp"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="4"
+
+            android:id="@+id/LL"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/TV_Termin"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:textColor="#dbd81f"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:id="@+id/TV_Hotel"
+                android:layout_gravity="center"
+                android:text="Hotel"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/TV_Zvijezdice"
+                android:gravity="center"
+                android:textColor="#dbd81f"
+
+                android:layout_gravity="center"
+                android:text="Zvijezdice"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:src="@drawable/airplane"
+                android:id="@+id/IV_Prevoz"
+                android:tint="#dbd81f"
+                android:layout_height="40dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/TV_Cijena"
+            android:layout_below="@+id/LL"
+            android:textColor="#dbd81f"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Cijena"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#dbd81f"
+
+            android:id="@+id/TV_Opis"
+            android:layout_below="@+id/TV_Cijena"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Opis"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TV_Opis"
+            android:id="@+id/BTN_Rezervisi"
+            android:backgroundTint="#F44336"
+            android:layout_marginLeft="20dp"
+            android:text="Rezervisi"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BTN_Rezervisi"
+            android:id="@+id/BTN_Otkazi"
+            android:backgroundTint="#F44336"
+            android:layout_marginLeft="20dp"
+            android:text="Otkazi rezervaciju"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+
+            />
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
+</RelativeLayout>

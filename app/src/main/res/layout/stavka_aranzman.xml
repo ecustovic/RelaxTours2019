@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="150dp"
+    android:layout_marginBottom="5dp"
+    android:weightSum="2"
+    android:background="@color/colorPrimaryDark">
+
+<LinearLayout
+    android:layout_gravity="center"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Naziv"
+    android:textColor="#dbd81f"
+    android:gravity="center"
+    android:id="@+id/TV_Naziv"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    />
+    <TextView
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Termin"
+    android:gravity="center"
+    android:id="@+id/TV_Termin"
+    android:textColor="#dbd81f"
+    />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nacin prevoza"
+        android:gravity="center"
+        android:id="@+id/TV_NacinPrevoza"
+        android:textColor="#dbd81f"
+        />
+
+       <TextView
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Cijena"
+    android:gravity="center"
+    android:id="@+id/TV_Cijena"
+    android:textColor="#dbd81f"
+    />
+
+</LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+
+        app:cardCornerRadius="8dp"
+        android:layout_height="wrap_content">
+<ImageView
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="centerInside"
+    android:src="@drawable/europa"
+    android:id="@+id/IV_Slika"
+   ></ImageView>
+    </android.support.v7.widget.CardView>
+    </LinearLayout>

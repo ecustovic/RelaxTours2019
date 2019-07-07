@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1032634940733",
+    "firebase_url": "https://relaxtours-f724b.firebaseio.com",
+    "project_id": "relaxtours-f724b",
+    "storage_bucket": "relaxtours-f724b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032634940733:android:184539317d5cca73",
+        "android_client_info": {
+          "package_name": "com.example.relaxtours"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032634940733-gglfko6s02m0bj5mrp9sktpj7j94863n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.relaxtours",
+            "certificate_hash": "ec5cf8c7333a34e2e8f3cac2ca81e54c2e45a742"
+          }
+        },
+        {
+          "client_id": "1032634940733-5ojg11ug3sjgnmdas9h0tr401tc77n5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOKAAmxMQW_wmCRXVYQi9h5asKjIcRWhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032634940733-5ojg11ug3sjgnmdas9h0tr401tc77n5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
